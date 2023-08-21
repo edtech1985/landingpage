@@ -1,15 +1,11 @@
 import styled from "styled-components";
 
 export const SectionContainer = styled.section`
+  padding: 2rem 0;
   text-align: center;
   background-color: var(--background2);
   color: var(--text1);
   max-width: 100vw;
-`;
-
-export const Title = styled.h1`
-  font-size: 2rem;
-  padding: 1rem;
 `;
 
 export const DivTextImg = styled.div`

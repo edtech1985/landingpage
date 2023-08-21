@@ -13,7 +13,7 @@ import pastaImage from "../../assets/globo1.jpg";
 
 const Section3 = () => {
   return (
-    <SectionContainer id="Section3">
+    <SectionContainer id="section3">
       <Subtitle>Otimização de SEO e Integração com Redes Sociais</Subtitle>
 
       <DivTextImg>

@@ -10,7 +10,7 @@ import {
   TitleH3,
 } from "./Section4";
 import pastaImage from "../../assets/globo2.jpg";
-import { StyledContactButton } from "../../ContactButton/StyledButton";
+import ContactButton from "../../components/ContactButton";
 
 const Section1 = () => {
   return (
@@ -40,13 +40,7 @@ const Section1 = () => {
         </DivTextLeft>
       </DivTextImg>
 
-      <StyledContactButton
-        href="https://api.whatsapp.com/send?phone=5551992002595"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        QUERO MAIS CONVERSÕES!
-      </StyledContactButton>
+      <ContactButton />
     </SectionContainer>
   );
 };

@@ -5,6 +5,15 @@ export const SectionContainer = styled.section`
   background-color: var(--background2);
   color: var(--text1);
   max-width: 100vw;
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+
+  @media (max-width: 480px) {
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* margin-top: 3rem; */
+  }
 `;
 
 export const Title = styled.h1`
@@ -72,6 +81,7 @@ export const Text1 = styled.p`
 
 export const DivImgRight = styled.div`
   max-width: 100%;
+  width: 200vw;
 
   @media (min-width: 481px) and (max-width: 768px) {
     margin-top: 1rem;

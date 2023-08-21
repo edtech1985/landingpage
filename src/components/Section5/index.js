@@ -8,6 +8,7 @@ import {
   WhatsappIcon,
   Text1,
   DivFooter,
+  WebsiteIcon,
 } from "./Section5";
 
 const Section5 = () => {
@@ -45,11 +46,31 @@ const Section5 = () => {
           >
             <WhatsappIcon />
           </a>
+          <a
+            href="https://www.edtech1985.com.br/projetos/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Portfolio edtech1985"
+            alt="Portfolio edtech1985"
+          >
+            <WebsiteIcon />
+          </a>
         </SocialIcons>
 
         <Copyright>
           &copy; {new Date().getFullYear()} Todos os direitos reservados |
-          Desenvolvido por edtech1985
+          <a
+            href="https://edtech1985.com.br/projetos/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Portfolio edtech1985"
+            alt="Portfolio edtech1985"
+          >
+            <strong>
+              {" "}
+              Desenvolvido por<span> edtech1985</span>{" "}
+            </strong>
+          </a>
         </Copyright>
       </DivFooter>
     </FooterContainer>

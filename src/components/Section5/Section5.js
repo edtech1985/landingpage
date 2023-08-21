@@ -6,11 +6,13 @@ import {
   faGithub,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export const FooterContainer = styled.footer`
   background-color: var(--background2);
   color: #f2f2f2;
   text-align: center;
+  padding: 1.5rem 0;
 `;
 
 export const DivFooter = styled.div`
@@ -44,6 +46,10 @@ export const SocialIcons = styled.div`
     font-size: 1.5rem;
     margin: 0 10px;
     text-decoration: none;
+
+    &:hover {
+      color: var(--second-color);
+    }
   }
 `;
 
@@ -69,6 +75,21 @@ export const WhatsappIcon = styled(Icon).attrs({
   /* Estilos específicos para o ícone do WhatsApp */
 `;
 
+export const WebsiteIcon = styled(Icon).attrs({
+  icon: faGlobe,
+})`
+  /* Estilos específicos para o ícone do WhatsApp */
+`;
+
 export const Copyright = styled.p`
   font-size: 0.75rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--second-color);
+    }
+  }
 `;

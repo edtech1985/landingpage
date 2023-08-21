@@ -31,21 +31,8 @@ export const NavLink = styled.a`
   text-decoration: none;
   color: var(--primary-color);
   font-weight: bold;
-  font-size: 1rem;
 
   &:hover {
     color: var(--second-color);
-  }
-
-  @media (max-width: 400px) {
-    font-size: 0.4rem;
-  }
-
-  @media (min-width: 401px) and (max-width: 550px) {
-    font-size: 0.5rem;
-  }
-
-  @media (min-width: 551px) and (max-width: 768px) {
-    font-size: 0.75rem;
   }
 `;

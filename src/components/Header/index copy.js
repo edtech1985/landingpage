@@ -1,22 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { HeaderContainer, NavList, NavItem, NavLink } from "./Header";
+
 const Header = () => {
-  const [hovered, setHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setHovered(false);
-  };
-
   return (
-    <HeaderContainer
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      hovered={hovered}
-    >
+    <HeaderContainer>
       <nav>
         <NavList>
           <NavItem>
